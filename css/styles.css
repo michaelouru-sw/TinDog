@@ -18,6 +18,8 @@ h1 {
 
 .title {
     padding-top: 20px;
+    margin-bottom: -20%;
+    padding-bottom: -20%;
 }
 
 /* Navigation Bar */
@@ -52,4 +54,30 @@ h1 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+}
+
+.image {
+    padding-bottom: -20%;
+}
+
+/* Features  */
+
+.features {
+    align-content: center;
+    text-align: center;
+    padding: 5% 2% 2% 0;
+}
+
+h3 {
+    font-family: "Monsterrat-bold";
+    font-size: 1.5rem;
+}
+
+.feature-icon {
+    font-size: 4.5rem;
+    color: #ef8172;
+}
+
+.features > p {
+    color: #8f8f8f;
 }
