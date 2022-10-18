@@ -6,20 +6,38 @@
 }
 
 body {
-    font-family: "Monsterrat";
+    font-family: "Montserrat-light";
 }
 
 h1 {
-    font-family: "Monsterrat";
+    font-family: "Montserrat";
     font-size: 3rem;
     line-height: 1.5;
     color: white;
 }
 
+h2 {
+    font-family: "Monserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Monsterrat-bold";
+    font-size: larger;
+}
+
+.feature-container > h3 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 15px;
+}
+
 .title {
     padding-top: 20px;
-    margin-bottom: -20%;
-    padding-bottom: -20%;
 }
 
 /* Navigation Bar */
@@ -65,19 +83,45 @@ h1 {
 .features {
     align-content: center;
     text-align: center;
-    padding: 5% 2% 2% 0;
-}
-
-h3 {
-    font-family: "Monsterrat-bold";
-    font-size: 1.5rem;
+    padding: 7% 15%;
 }
 
 .feature-icon {
-    font-size: 4.5rem;
     color: #ef8172;
+    margin-bottom: 1rem;
 }
 
 .features > p {
     color: #8f8f8f;
+}
+
+.feature-container {
+    padding: 5%;
+}
+
+/* Testimonials Section  */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section  */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
