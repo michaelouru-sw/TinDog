@@ -38,6 +38,8 @@ p {
 
 .title {
     padding-top: 20px;
+    /* position: absolute;
+    z-index: 0; */
 }
 
 /* Navigation Bar */
@@ -72,6 +74,7 @@ p {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 .image {
@@ -82,8 +85,14 @@ p {
 
 .features {
     align-content: center;
+    width: 100%;
     text-align: center;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    top: 100%;
+    left: 0%;
 }
 
 .feature-icon {
@@ -129,4 +138,56 @@ p {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section  */
+
+#pricing {
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 10%;
+}
+
+#cta > h3 {
+    font-family: "Montserrat";
+    font-size: 3.4rem;
+    color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    padding: 1%;
+}
+
+#footer > p {
+    font-size: 1.5rem;
+}
+
+/* Media Quesries  */
+
+@media (max-width:996px) {
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+    .title {
+        text-align: center;
+    }
 }
