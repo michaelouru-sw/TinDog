@@ -1,45 +1,16 @@
-#title {
-    background-color: #ff4c68;
-}
-.container-fluid {
-    padding: 3% 15%;
-}
-
 body {
     font-family: "Montserrat-light";
+    text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
-    font-size: 3rem;
     line-height: 1.5;
-    color: white;
-}
-
-h2 {
-    font-family: "Monserrat-Bold";
-    font-size: 2rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-family: "Monsterrat-bold";
-    font-size: larger;
-}
-
-.feature-container > h3 {
-    font-family: "Montserrat";
 }
 
 p {
     color: #8f8f8f;
     font-size: 15px;
-}
-
-.title {
-    padding-top: 20px;
-    /* position: absolute;
-    z-index: 0; */
 }
 
 /* Navigation Bar */
@@ -65,20 +36,37 @@ p {
     font-family: "Monsterrat-light";
 }
 
-/* Buttons */
-.download-btn {
-    margin: 5% 3% 5% 0;
+/* Title Section */
+
+#title {
+    background-color: #ff4c68;
 }
 
-/* Title Image */
+.title {
+    padding: 0 0 10%;
+}
+
 .title-img {
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
+    right: 15%;
 }
 
-.image {
-    padding-bottom: -20%;
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.title-heading {
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+}
+
+/* Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
 }
 
 /* Features  */
@@ -90,9 +78,6 @@ p {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
-    top: 100%;
-    left: 0%;
 }
 
 .feature-icon {
@@ -106,6 +91,10 @@ p {
 
 .feature-container {
     padding: 5%;
+}
+
+.feature-heading {
+    font-size: 1.2rem;
 }
 
 /* Testimonials Section  */
@@ -124,8 +113,7 @@ p {
 }
 
 .testimonial-item {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding: 0 25%;
 }
 
 /* Press Section  */
@@ -152,6 +140,10 @@ p {
     padding: 3% 2%;
 }
 
+ .price-item-title {
+    font-size: larger;
+ }
+
 /* Call to Action Section  */
 
 #cta {
@@ -160,8 +152,7 @@ p {
     padding: 7% 10%;
 }
 
-#cta > h3 {
-    font-family: "Montserrat";
+.cta-heading {
     font-size: 3.4rem;
     color: #fff;
 }
@@ -170,6 +161,7 @@ p {
 
 #footer {
     text-align: center;
+    padding: 5%;
 }
 
 .social-icon {
