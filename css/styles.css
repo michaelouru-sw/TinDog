@@ -16,9 +16,7 @@ p {
 /* Navigation Bar */
 
 .navbar {
-    padding-bottom: 4.5rem;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding: 0 0 8%;
 }
 
 .navbar-brand {
@@ -38,10 +36,6 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-}
-
 .title {
     padding: 0 0 10%;
 }
@@ -59,8 +53,19 @@ p {
 
 .title-heading {
     font-size: 3rem;
-    color: white;
     text-align: left;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+    color: black;
 }
 
 /* Buttons */
@@ -76,7 +81,6 @@ p {
     width: 100%;
     text-align: center;
     padding: 7% 15%;
-    background-color: #fff;
     position: relative;
 }
 
@@ -103,7 +107,6 @@ p {
     padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image {
@@ -147,29 +150,22 @@ p {
 /* Call to Action Section  */
 
 #cta {
-    background-color: #ff4c68;
     text-align: center;
     padding: 7% 10%;
 }
 
 .cta-heading {
     font-size: 3.4rem;
-    color: #fff;
 }
 
 /* Footer Section */
 
 #footer {
-    text-align: center;
     padding: 5%;
 }
 
 .social-icon {
     padding: 1%;
-}
-
-#footer > p {
-    font-size: 1.5rem;
 }
 
 /* Media Quesries  */
